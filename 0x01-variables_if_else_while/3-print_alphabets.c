@@ -5,13 +5,13 @@
  */
 int main(void)
 {
-char c;
-c = 'a';
+char lowercase;
+lowercase = 'a';
 while
-(c <= 'z');
+(lowercase <= 'z');
 {
-putchar(c);
-c++;
+putchar(lowercase);
+lowercase++;
 }
 putchar('\n');
 return (0);
