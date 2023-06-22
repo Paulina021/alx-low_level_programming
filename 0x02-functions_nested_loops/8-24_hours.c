@@ -14,11 +14,11 @@ while (l < 60)
 {
 _putchar((k / 10) + '0');
 _putchar((k % 10) + '0');
-_putchar('.');
+_putchar(':');
 _putchar((l / 10) + '0');
 _putchar((l % 10) + '0');
-l++;
 _putchar('\n');
+l++;
 }
 k++;
 }
