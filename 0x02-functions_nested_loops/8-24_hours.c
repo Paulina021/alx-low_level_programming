@@ -17,8 +17,8 @@ _putchar((k % 10) + '0');
 _putchar('.');
 _putchar((l / 10) + '0');
 _putchar((l % 10) + '0');
-_putchar('\n');
 l++;
+_putchar('\n');
 }
 k++;
 }
