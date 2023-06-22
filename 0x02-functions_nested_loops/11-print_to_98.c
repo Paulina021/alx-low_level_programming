@@ -20,19 +20,19 @@ if (x != 98)
 {
 printf("%d, ", x);
 }
-else if (x == 98)
+else
 {
-printf("%d ", x);
+printf("%d\n", x);
 }
-else if (n >= 98)
+if (n >= 98)
 {
 for (y = n; y >= 98; y--)
 {
 if (y != 98)
 {
-printf("%d", y);
+printf("%d, ", y);
 }
-else if (y == 98)
+else
 {
 printf("%d\n", y);
 }
