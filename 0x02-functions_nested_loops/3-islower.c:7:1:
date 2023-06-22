@@ -1,0 +1,2 @@
+nt_islower(int c)
+      | ^~~~~~~~~~~
