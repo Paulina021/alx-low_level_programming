@@ -18,11 +18,11 @@ for (x = n; x <= 98; x++)
 {
 if (x != 98)
 {
-printf("% d, ", x);
+printf("%d,", x);
 }
 else if (x == 98)
 {
-	printf("%d, ", x);
+printf("%d,", x);
 }
 else if (n >= 98)
 {
@@ -30,7 +30,7 @@ for (y = n; y >= 98; y--)
 {
 if (y != 98)
 {
-printf("%d, ", y);
+printf("%d,", y);
 }
 else if (y == 98)
 {
