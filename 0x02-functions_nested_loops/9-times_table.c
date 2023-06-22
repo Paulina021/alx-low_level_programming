@@ -18,7 +18,8 @@ else
 {
 _putchar(',');
 _putchar(' ');
-_putchar(c);
+_putchar(' ');
+_putchar(c + '0');
 }
 if (c < 10)
 {
