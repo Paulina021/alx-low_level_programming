@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _atoi- convert a str to an int
- * @s: the ponter to be converted
- * eturn: an int
+ * _atoi- convert a str to an integer
+ * @s: the pointer to be converted
+ * Return: The converted integer value
  */
 int _atoi(char *s)
 {
