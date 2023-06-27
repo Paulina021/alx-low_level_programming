@@ -12,3 +12,7 @@ for (i = 0 ; str[i] != '\0' ; i += 2)
 _putchar(str[i]);
 }
 }
+int _putchar(char c)
+{
+return (putchar(c));
+}
