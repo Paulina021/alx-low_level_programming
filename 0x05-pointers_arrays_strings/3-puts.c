@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *_puts - print a string to standars output
- * @param  str the string to be printed. must be null-terminated
+ * @str: the string to be printed. must be null-terminated
  */
 void _puts(char *str)
 {
