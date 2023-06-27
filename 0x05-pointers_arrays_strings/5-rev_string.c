@@ -16,7 +16,7 @@ for (i = 0; i < c / 2; i++)
 {
 c--;
 rev = s[i];
-s[i] = s[c - i - 1];
-s[c - i - 1] = rev;
+s[i] = s[c];
+s[c] = rev;
 }
 }
