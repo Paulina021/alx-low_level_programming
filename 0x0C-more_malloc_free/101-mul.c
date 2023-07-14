@@ -49,6 +49,7 @@ exit(98);
 *
 * Return: always 0 (Success)
 */
-int main(int argc, char *argv[])
+int main(void)
 {
-
+return (0);
+}
